@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Elc|jC^9[`D9~0-#(J/6" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="q)|cW{88M43-B:vrx8Fd"><value name="ID"><shadow type="math_number_minmax" id="ty_4!ybmxS91h%hv5=f%"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">7</field></shadow></value></block></statement></block><block type="device_forever" id="{;$e#Lh/TP0n6*FT-1Ci" x="375" y="25"><statement name="HANDLER"><block type="controls_if" id="dj5M!B|.m~VCM!`pS)jT"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="x@g5I/zp]pHMpC+*gO(c"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="JlFxQiaBr$_nXb-^{~fB"><value name="value"><shadow type="math_number" id="IlyG,4iTvgr!T[Ye,uDX"><field name="NUM">1</field></shadow></value></block></statement><next><block type="controls_if" id="DEil3W3$(5E+B,M14=L}"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="O/E)u5:wS|=p.Vn7I_k("><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="radio_datagram_send" id="l:Ai9s%YE!FY@=Y,i#J;"><value name="value"><shadow type="math_number" id="7VvKZ,(x1|MD9n7TOFak"><field name="NUM">2</field></shadow></value></block></statement><next><block type="controls_if" id="d/L8O[vkToOsjs!@cx|L"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="input_logo_is_pressed" id="1ZF/j2$1U5AEDUSFQc$k"/></value><statement name="DO0"><block type="radio_datagram_send" id="%WPp78^KVNew|1m/z2Ph"><value name="value"><shadow type="math_number" id="bkH?=FAwCd@;w@MkP}`{"><field name="NUM">3</field></shadow></value></block></statement></block></next></block></next></block></statement></block><block type="function_definition" id="]I053[}uf^nTaqX3Va@L" x="-64" y="161"><mutation name="eskuineko intermitentea" functionid="E!~oe=(yKK]+%:Y)){rv"/><field name="function_name">eskuineko intermitentea</field><statement name="STACK"><block type="device_show_leds" id="Z.0/I$X:|:D-U^af2[ct"><field name="LEDS">`
+        . . . # # 
+        . . . # # 
+        . . . # # 
+        . . . # # 
+        . . . # #
+        `</field><next><block type="device_pause" id="SopZqkVBX#%$^.xrn@M?"><value name="pause"><shadow type="timePicker" id="z3np#XKq20a*$G;3Rkhk"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="he1[iMjSD7)4ObbrU,O$"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="0;cjb+;wHLdHjhr~29yp"><value name="pause"><shadow type="timePicker" id="$Mot(oAK$D+#u7]r`Z7C"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="N(_,0qXRgnW2?8/d9]9n"><field name="LEDS">`
+        . . . # # 
+        . . . # # 
+        . . . # # 
+        . . . # # 
+        . . . # #
+        `</field><next><block type="device_pause" id="NI]#g2=F0i=1PeRz*#gC"><value name="pause"><shadow type="timePicker" id="s6[CHbVpE,~ZvKL$*/t`"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="[W{EC,Xo2V0=:Wr)%Dv5"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="function_definition" id=";}Op#vmc2Ld#ha9R-MM*" x="464" y="424"><mutation name="limpiaparabrisas" functionid="5Phrm*[Nk73~@@Ljz-/r"/><field name="function_name">limpiaparabrisas</field><statement name="STACK"><block type="device_set_digital_pin" id="`{S=Zn[u=CqMsX2R{UGP"><field name="name">DigitalPin.P0</field><value name="value"><shadow type="math_number_minmax" id=";GHm@e)zu03b3KPWbQ2-"><mutation min="0" max="1" label="Value" precision="0"/><field name="SLIDER">180</field></shadow></value></block></statement></block><block type="function_definition" id="5:*9A.`xeT!#V^gT4X?8" x="162" y="619"><mutation name="ezkerreko intermitentea" functionid="A4RPAyuc#pbSHybrL,CJ"/><field name="function_name">ezkerreko intermitentea</field><statement name="STACK"><block type="device_show_leds" id="bj23,29ipt{i|4Ld0:l;"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . .
+        `</field><next><block type="device_pause" id="}ET@UhTP,(#Yqe~K|rP$"><value name="pause"><shadow type="timePicker" id="MG?M0GOK(sJ27^k|mhE["><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="^.P$fy`0ImEbsJ_*1ybQ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="BNMO*pZq?[rY(8tE%|@5"><value name="pause"><shadow type="timePicker" id="hf@~s[2^LmYS{^LCtL3="><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="X+~nlz6#iMtf?af#2:tc"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # . . .
+        `</field><next><block type="device_pause" id="GA-nnPZ9=8tKf?0IEB0;"><value name="pause"><shadow type="timePicker" id="kK@xux*,[TDy:LG7Q/v]"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="im6rrZ(K-DQX:CIJTu5Q"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="radio_on_number_drag" id="T93vY?T*E@aQ!]7p}L,?" x="553" y="623"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="t#Gnq=V*Ksspv^{3Gofc"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="B/FCiLY7znkx!(wW_1an"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="/hT5+UX)koKoosfz.fdS"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="wvYpExqYvmA+}`)sGB{#"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="3$NW?.kMbb;?rNN$E-^t"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="function_call" id="d:7F#wA7GT~Q#FBp3du|"><mutation name="eskuineko intermitentea" functionid="E!~oe=(yKK]+%:Y)){rv"/></block></statement><next><block type="controls_if" id=":Tiuj9tkUm]biCks|)33"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="0p8`,xSCiYUh$f!O5{R`"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="fr=}wH`U;8!CXh8U3d-j"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="D{)l,u8f)6_xu,hDi`WL"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="function_call" id="9cTBKP,nR.KW%#A]SRO-"><mutation name="ezkerreko intermitentea" functionid="A4RPAyuc#pbSHybrL,CJ"/></block></statement><next><block type="controls_if" id="T|1G$QQ{qE6tf0%TDh)c"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="@ol!g$TO|=TZsDmX7@x="><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="tngRRLe$FP|%.A!veHP`"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="Tu]g^^G3p6)7YqU02C:#"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="function_call" id="iUNO6|l{m~)JK`CKM.VN"><mutation name="limpiaparabrisas" functionid="5Phrm*[Nk73~@@Ljz-/r"/></block></statement></block></next></block></next></block></statement></block></xml>
