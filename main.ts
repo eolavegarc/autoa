@@ -10,6 +10,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
 })
 function ezkerreko_intermitentea () {
+    music.playMelody("C5 A B G A F G E ", 120)
     basic.showLeds(`
         # # . . .
         # # . . .
@@ -44,8 +45,10 @@ function ezkerreko_intermitentea () {
 }
 function limpiaparabrisas () {
     pins.digitalWritePin(DigitalPin.P0, 180)
+    music.playMelody("G B A G C5 B A B ", 120)
 }
 function eskuineko_intermitentea () {
+    music.playMelody("C D E F G A B C5 ", 120)
     basic.showLeds(`
         . . . # #
         . . . # #
